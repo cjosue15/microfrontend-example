@@ -1,0 +1,11 @@
+{
+  "extends": ["react-important-stuff", "plugin:prettier/recommended"],
+  "parser": "@babel/eslint-parser",
+  "prettier/prettier": [
+    "error",
+    {},
+    {
+      "usePrettierrc": true
+    }
+  ]
+}

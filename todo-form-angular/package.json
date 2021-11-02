@@ -8,7 +8,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "build:single-spa:todo-form": "ng build todo-form --prod",
-    "serve:single-spa:todo-form": "ng s --project todo-form --disable-host-check --port 4000 --live-reload false"
+    "serve:single-spa:todo-form": "ng s --project todo-form --disable-host-check --port 4000 --live-reload true"
   },
   "private": true,
   "dependencies": {
